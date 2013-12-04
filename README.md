@@ -25,6 +25,9 @@ by Ross Anderson and Andrew Bradshaw
 
 
 ## Setup:
+#### Getting Going:
+Just dump all the files inside `Stamp/` into the directory which includes your .cpp file with `setup()` and `loop()` in it. Then, `#include "Stamp.h". That's it!
+
 #### Required Libraries:
 These must be in your default include path:  
 [Adafruit_ST7735.h](https://github.com/adafruit/Adafruit-ST7735-Library)  

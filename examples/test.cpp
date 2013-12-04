@@ -1,10 +1,11 @@
 /*
-  Testing functionality of 2D Sprite Library.
+  Tech Demo / Functionality Testing of:
+    Stamp: a 2D Sprite Library for Adafruit ST7735 for Arduino
   
   Ross Anderson & Andrew Bradshaw
 
 */
-#include "ab2DSprites.h"
+#include "Stamp.h"
 
 // How many test sections to skip
 #define TEST_LEVEL 0

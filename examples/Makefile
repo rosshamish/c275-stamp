@@ -7,12 +7,12 @@ ARDUINO_LIBS = SPI Adafruit_GFX Adafruit_ST7735 \
 # Either set this here or type `make upload BOARD_TAG=uno`
 BOARD_TAG = mega2560 
 
-# if there is a ARDUINO_UA_ROOT environment variable, it defines the
-# root of the arduino_ua install.  If not, we assume it is in HOME
+# if there is a ARDUINO_ROOT environment variable, it defines the
+# root of the arduino install.  If not, we assume it is in HOME
 ifndef ARDUINO_UA_ROOT
   ARDUINO_UA_ROOT=$(HOME)
 endif
-include $(ARDUINO_UA_ROOT)/arduino-ua/mkfiles/ArduinoUA.mk
+include ~/arduino-ua/mkfiles/ArduinoUA.mk
 
 # This is magic that I use to define MEGA or UNO in my C/C++ files.
 # Remember to `make clean` before `make upload`ing on a different type
@@ -25,6 +25,9 @@ DEFINES := ${DEFINITIONS:%=-D%}
 #CFLAGS += -Wall -Werror -std=c99
 #CXXFLAGS += -Wall -Werror
 CPPFLAGS += $(DEFINES) 
+
+./Stamp/abLayer.o : ./Stamp/abLayer.cpp
+	g++ -o -c Stamp/abLayer.o Stamp/abLayer.cpp
 
 # override the default optimization levels here
 # CPP_OPTIMIZE = -O0
