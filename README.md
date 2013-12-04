@@ -42,8 +42,9 @@ These `#define`s are included in `Stamp.h`. Wire up your Adafruit ST7735 accordi
 Initialize your `Adafruit_ST7735` like so:  
 `Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);`
 
-## Boilerplate/Template
-[Example File Structure and Boilerplate can be found here](https://github.com/RossHamish/STAMP--Boilerplate)
+### Boilerplate/Template
+[Example File Structure and Boilerplate can be found here](https://github.com/RossHamish/STAMP--Boilerplate)  
+Currently, all files must be in the same directory as the .cpp file with `setup()` and `loop()` in it. This is a known issue and will be fixed according to interest.
 
 ## Examples
 [Examples can be found here](https://github.com/RossHamish/STAMP/examples)
@@ -95,3 +96,7 @@ Every time the layer draws, it will move over one image in the spritesheet. When
 
 #### Converting .bmp to .lcd
 You will need to convert your images to native LCD images before using the library, as it only takes filenames of type "filename.lcd". This is to improve performance. A quick google finds some information [here](http://arduinoexplained.blogspot.ca/2012/05/image-slideshow-with-arduino.html) on how to do the conversion. At the time of writing, that tool is only a Linux program, but I'm sure you can find others online. Just search "bmp to lcd conversion".
+
+Alternatively, if you are at the University of Alberta, just use the convert-bmp-to-lcd.sh shell script provided by the CMPUT 274/275 professors.
+
+**IMPORTANT**: The library **reads from the SD card, and the SD card **must be initialized** before use. This is outlined more clearly in the [boilerplate code](https://github.com/RossHamish/Stamp--Boilerplate) as well as in the [examples](https://github.com/RossHamish/Stamp/examples). 
