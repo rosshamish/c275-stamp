@@ -28,6 +28,8 @@ by Ross Anderson and Andrew Bradshaw
 #### Getting Going:
 Just dump all the files inside `Stamp/` into the directory which includes your .cpp file with `setup()` and `loop()` in it. Then, `#include "Stamp.h". That's it!
 
+To run the example, copy all the files in the `images` folder onto an SD card, put the SD card in the ST7735 Screen, and `make upload` from inside the `examples` directory.
+
 #### Required Libraries:
 These must be in your default include path:  
 [Adafruit_ST7735.h](https://github.com/adafruit/Adafruit-ST7735-Library)  
