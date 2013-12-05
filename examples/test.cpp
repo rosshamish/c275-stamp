@@ -5,7 +5,11 @@
   Ross Anderson & Andrew Bradshaw
 
 */
+<<<<<<< HEAD
 #include "Stamp/Stamp.h"
+=======
+#include "Stamp.h"
+>>>>>>> 23a0327c69d14d986da1da1e31893f5210cd1f9a
 
 // How many test sections to skip
 #define TEST_LEVEL 0

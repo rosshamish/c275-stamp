@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled Object files
 *.slo
 *.lo
@@ -15,3 +16,22 @@
 # Backup files
 *.*~
 #*.*
+=======
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Backup files
+*.*~
+#*.*
+>>>>>>> 23a0327c69d14d986da1da1e31893f5210cd1f9a
