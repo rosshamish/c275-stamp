@@ -52,7 +52,7 @@ Initialize your `Adafruit_ST7735` like so:
 Currently, all files must be in the same directory as the .cpp file with `setup()` and `loop()` in it. This is a known issue and will be fixed according to interest.
 
 ## Examples
-[Examples can be found here](https://github.com/RossHamish/STAMP/examples)
+[Examples can be found here](https://github.com/RossHamish/Stamp/tree/master/examples)
 
 ## Usage:
 
