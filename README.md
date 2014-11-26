@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Stamp
 ### an Arduino 2D Sprite Library for Adafruit ST7735
 by Ross Anderson and Andrew Bradshaw
@@ -208,5 +207,4 @@ You will need to convert your images to native LCD images before using the libra
 
 Alternatively, if you are at the University of Alberta, just use the convert-bmp-to-lcd.sh shell script provided by the CMPUT 274/275 professors.
 
-**IMPORTANT**: The library **reads from the SD card, and the SD card must be initialized** before use. This is outlined more clearly in the [boilerplate code](https://github.com/RossHamish/Stamp--Boilerplate) as well as in the [examples](https://github.com/RossHamish/Stamp/tree/master/examples). 
->>>>>>> 23a0327c69d14d986da1da1e31893f5210cd1f9a
+**IMPORTANT**: The library **reads from the SD card, and the SD card must be initialized** before use. This is outlined more clearly in the [boilerplate code](https://github.com/RossHamish/Stamp--Boilerplate) as well as in the [examples](https://github.com/RossHamish/Stamp/tree/master/examples).
